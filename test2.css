@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 130vh;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2874f0;
+    align-items: center;
+}
+.flipkart{
+    margin-left: 200px;
+}
+.login{
+    margin-right: 50px;
+}
+
+.flipkart > p{
+    font-family: 'Cinzel', serif;
+font-family: 'Press Start 2P', cursive;
+color: whitesmoke;
+}
+.flipkart > p:hover{
+    color: #68b8ed;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.search > input{
+    width: 500px;
+    height: 30px;
+}
+.login > button{
+    padding: 5px;
+}
+.items-category{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.items-category > div > p:hover{
+    color:#5c78f2;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.items > div > img{
+    height: 100px;
+    width: 150px;
+}
+.items-name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
